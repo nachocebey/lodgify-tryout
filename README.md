@@ -1,8 +1,36 @@
-# React + Vite
+# Lodgify Tryout
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a technical assessment for Lodgify.
 
-Currently, two official plugins are available:
+The project features a single parent component that displays tasks (retrieved from an API) and calculates the percentage of completed tasks. The project follows a basic folder structure, with a single components folder housing the various components that build the main component (TaskLoader).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Additionally, unit tests (vitest), integration tests (react-testing-library), and end-to-end tests (Cypress) have been implemented. These tests cover fundamental aspects of the development.
+
+## Installation
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
+
+## Testing
+
+```bash
+npm run test
+```
+
+## EtE Testing
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
+
+```bash
+npm run cypress:open
+```
