@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  max-width: 40rem;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.loader--bar {
+  display: flex;
+  background-color: #f2fbfa;
+  border-radius: 16px;
+}
+
+.loader--bar > .completed {
+  min-width: 2.5rem;
+  background-color: #00b797;
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  font-size: 1rem;
+  padding-right: 5px;
+  border-radius: 16px;
+  transition: width 0.5s ease;
+}
+
+.completed {
+  transition: width 0.5s ease;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.task-groups-container > div:first-child {
+  border-top: 1px solid #cccc;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.task-groups-container > div:last-child {
+  border-bottom: 1px solid #cccc;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}

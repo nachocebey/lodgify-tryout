@@ -1,0 +1,51 @@
+.loader {
+  margin-bottom: 1rem;
+}
+
+.group-header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  cursor: pointer;
+  padding: 1rem;
+  gap: 0.7rem;
+  font-size: 0.875rem;
+}
+
+.group-header > span {
+  font-size: 1.2rem;
+}
+
+.group-header--title {
+  flex: 1;
+  font-size: 1.125rem;
+}
+
+.group-header--show-container {
+  display: flex;
+  align-items: center;
+  color: rgb(148, 163, 184);
+}
+
+.group-header--show-container > span {
+  margin-top: 3px;
+  transition: width 0.5s ease;
+}
+
+.task-group {
+  border: 1px solid #cccc;
+}
+
+.tasks-hide {
+  display: none;
+}
+
+.tasks-container > ul {
+  padding: 0;
+}
+
+.tasks-container > ul > li {
+  display: flex;
+  padding: 0.8rem;
+  gap: 1rem;
+}
